@@ -14,5 +14,10 @@ namespace NavigationProc
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            _ = Frame.Navigate(typeof(MainPage));
+        }
     }
 }
