@@ -58,5 +58,9 @@ namespace NavigationProc
             origHotKeyProc = Marshal.GetDelegateForFunctionPointer<WNDPROC>(wndPtr);
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _ = Frame.Navigate(typeof(OtherPage));
+        }
     }
 }

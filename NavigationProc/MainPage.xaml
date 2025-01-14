@@ -13,6 +13,6 @@
         VerticalAlignment="Center"
         Orientation="Horizontal">
         <ToggleButton x:Name="ToggleButton">F6</ToggleButton>
-        <Button x:Name="NavigateButton">To go page</Button>
+        <Button Click="Button_Click">To go page</Button>
     </StackPanel>
 </Page>
