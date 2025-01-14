@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Window
-    x:Class="NavigationProc.MainWindow"
+<Page
+    x:Class="NavigationProc.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:NavigationProc"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="NavigationProc"
     mc:Ignorable="d">
 
-    <Window.SystemBackdrop>
-        <MicaBackdrop Kind="Base" />
-    </Window.SystemBackdrop>
-
-    <Grid>
-        <local:MainPage />
-    </Grid>
-</Window>
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Horizontal">
+        <ToggleButton x:Name="ToggleButton">F6</ToggleButton>
+        <Button x:Name="NavigateButton">To go page</Button>
+    </StackPanel>
+</Page>
