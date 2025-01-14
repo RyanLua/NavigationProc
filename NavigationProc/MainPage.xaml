@@ -6,7 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="using:NavigationProc"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    NavigationCacheMode="Enabled"
     mc:Ignorable="d">
+
+    <!--  NavigationCacheMode being set to Enabled causes the app to crash  -->
 
     <StackPanel
         HorizontalAlignment="Center"
